@@ -1,0 +1,5 @@
+we manually tuned the checkpoints here, and then noted the procedure approximately in training.py
+
+the procedure in training.py reaches ~53.7% whereas the saved models are 54.7%. The difference is reproducible, yet we didn't want to spend time on it since this model will most probably only be reported as activity rather than result
+
+not on deliverable v1

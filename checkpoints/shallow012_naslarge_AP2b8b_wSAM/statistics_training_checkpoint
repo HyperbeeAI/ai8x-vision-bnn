@@ -1,0 +1,176 @@
+Top:
+   epoch
+   extras
+   state_dict
+   arch
+-------------------------------------
+arch: ai85nascifarnet
+-------------------------------------
+extras: None
+-------------------------------------
+state_dict:
+   conv1_1
+     output_shift:         [-0.]
+     adjust_output_shift:  [1.]
+     quantize_activation:  [1.]
+     shift_quantile:       [0.985]
+     weight bits:          [8.]
+     bias_bits:            [8.]
+     bias
+        total # of elements, shape: 128 , [128]
+        # of unique elements:       128
+        min, max, mean: -0.1062945 ,  0.11649261 ,  0.0042711664
+     weight
+        total # of elements, shape: 3456 , [128, 3, 3, 3]
+        # of unique elements:       3456
+        min, max, mean: -0.81091905 ,  1.0096906 ,  -0.0011215414
+   conv1_2
+     output_shift:         [-1.]
+     adjust_output_shift:  [1.]
+     quantize_activation:  [1.]
+     shift_quantile:       [0.985]
+     weight bits:          [2.]
+     bias_bits:            [8.]
+     bias
+        total # of elements, shape: 128 , [128]
+        # of unique elements:       128
+        min, max, mean: -0.38302064 ,  0.2630111 ,  0.09883679
+     weight
+        total # of elements, shape: 16384 , [128, 128, 1, 1]
+        # of unique elements:       16366
+        min, max, mean: -0.6458351 ,  0.48061106 ,  -0.014299535
+   conv1_3
+     output_shift:         [-3.]
+     adjust_output_shift:  [1.]
+     quantize_activation:  [1.]
+     shift_quantile:       [0.985]
+     weight bits:          [2.]
+     bias_bits:            [8.]
+     bias
+        total # of elements, shape: 256 , [256]
+        # of unique elements:       256
+        min, max, mean: -0.44141898 ,  0.9098679 ,  0.08919213
+     weight
+        total # of elements, shape: 294912 , [256, 128, 3, 3]
+        # of unique elements:       294335
+        min, max, mean: -0.1915816 ,  0.16559647 ,  -0.0038295325
+   conv2_1
+     output_shift:         [-4.]
+     adjust_output_shift:  [1.]
+     quantize_activation:  [1.]
+     shift_quantile:       [0.985]
+     weight bits:          [2.]
+     bias_bits:            [8.]
+     bias
+        total # of elements, shape: 128 , [128]
+        # of unique elements:       128
+        min, max, mean: -0.45334312 ,  0.56368154 ,  0.108843796
+     weight
+        total # of elements, shape: 294912 , [128, 256, 3, 3]
+        # of unique elements:       294393
+        min, max, mean: -0.11026993 ,  0.06633544 ,  -0.0010007931
+   conv2_2
+     output_shift:         [-1.]
+     adjust_output_shift:  [1.]
+     quantize_activation:  [1.]
+     shift_quantile:       [0.985]
+     weight bits:          [2.]
+     bias_bits:            [8.]
+     bias
+        total # of elements, shape: 128 , [128]
+        # of unique elements:       128
+        min, max, mean: -0.7490978 ,  0.6358313 ,  0.09368026
+     weight
+        total # of elements, shape: 16384 , [128, 128, 1, 1]
+        # of unique elements:       16383
+        min, max, mean: -0.6281223 ,  0.65266085 ,  -0.021354973
+   conv3_1
+     output_shift:         [-4.]
+     adjust_output_shift:  [1.]
+     quantize_activation:  [1.]
+     shift_quantile:       [0.985]
+     weight bits:          [2.]
+     bias_bits:            [8.]
+     bias
+        total # of elements, shape: 64 , [64]
+        # of unique elements:       64
+        min, max, mean: -0.6982394 ,  0.9027271 ,  0.0025540655
+     weight
+        total # of elements, shape: 73728 , [64, 128, 3, 3]
+        # of unique elements:       73699
+        min, max, mean: -0.1486163 ,  0.1421723 ,  -4.3654596e-05
+   conv3_2
+     output_shift:         [-0.]
+     adjust_output_shift:  [1.]
+     quantize_activation:  [1.]
+     shift_quantile:       [0.985]
+     weight bits:          [2.]
+     bias_bits:            [8.]
+     bias
+        total # of elements, shape: 256 , [256]
+        # of unique elements:       256
+        min, max, mean: -0.34901744 ,  0.40962565 ,  0.04933401
+     weight
+        total # of elements, shape: 16384 , [256, 64, 1, 1]
+        # of unique elements:       16381
+        min, max, mean: -0.7871786 ,  0.8800293 ,  -0.019785387
+   conv4_1
+     output_shift:         [-4.]
+     adjust_output_shift:  [1.]
+     quantize_activation:  [1.]
+     shift_quantile:       [0.985]
+     weight bits:          [2.]
+     bias_bits:            [8.]
+     bias
+        total # of elements, shape: 128 , [128]
+        # of unique elements:       128
+        min, max, mean: -0.50292665 ,  0.59448224 ,  0.05066337
+     weight
+        total # of elements, shape: 294912 , [128, 256, 3, 3]
+        # of unique elements:       294407
+        min, max, mean: -0.10920182 ,  0.13385801 ,  -0.00080923137
+   conv4_2
+     output_shift:         [-3.]
+     adjust_output_shift:  [1.]
+     quantize_activation:  [1.]
+     shift_quantile:       [0.985]
+     weight bits:          [2.]
+     bias_bits:            [8.]
+     bias
+        total # of elements, shape: 64 , [64]
+        # of unique elements:       64
+        min, max, mean: -0.33529556 ,  0.38338777 ,  0.091318294
+     weight
+        total # of elements, shape: 73728 , [64, 128, 3, 3]
+        # of unique elements:       73652
+        min, max, mean: -0.21086846 ,  0.19986778 ,  -0.0023538435
+   conv5_1
+     output_shift:         [-1.]
+     adjust_output_shift:  [1.]
+     quantize_activation:  [1.]
+     shift_quantile:       [0.985]
+     weight bits:          [2.]
+     bias_bits:            [8.]
+     bias
+        total # of elements, shape: 128 , [128]
+        # of unique elements:       128
+        min, max, mean: -0.3798907 ,  0.41461912 ,  0.082057945
+     weight
+        total # of elements, shape: 8192 , [128, 64, 1, 1]
+        # of unique elements:       8136
+        min, max, mean: -0.5600442 ,  0.8380049 ,  -0.010083143
+   fc
+     output_shift:         [1.]
+     adjust_output_shift:  [1.]
+     quantize_activation:  [1.]
+     shift_quantile:       [0.985]
+     weight bits:          [8.]
+     bias_bits:            [8.]
+     bias
+        total # of elements, shape: 100 , [100]
+        # of unique elements:       100
+        min, max, mean: -0.25300184 ,  0.20809306 ,  -0.00476943
+     weight
+        total # of elements, shape: 51200 , [100, 512]
+        # of unique elements:       51186
+        min, max, mean: -3.399373 ,  2.1379414 ,  -0.231394

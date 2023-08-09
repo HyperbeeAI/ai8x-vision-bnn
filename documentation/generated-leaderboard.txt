@@ -1,0 +1,77 @@
+buraksoner@buraksoner-XPS-15-7590:~/sai-tr/workspace_maxim_ai85_cifar100$ python tools/generate_leaderboard.py 
+
+Found checkpoints (except reproduce checkpoints) at these locations:
+/home/buraksoner/sai-tr/workspace_maxim_ai85_cifar100/checkpoints/maxim000_nas_8b
+/home/buraksoner/sai-tr/workspace_maxim_ai85_cifar100/checkpoints/maxim001_simplenet_2b4b8b
+/home/buraksoner/sai-tr/workspace_maxim_ai85_cifar100/checkpoints/shallow001_nas_8b_SAM
+/home/buraksoner/sai-tr/workspace_maxim_ai85_cifar100/checkpoints/shallow002_nas_2b8b_noSAM_4lyrDeep
+/home/buraksoner/sai-tr/workspace_maxim_ai85_cifar100/checkpoints/shallow003_nas_2b8b_noSAM_3lyrDeep
+/home/buraksoner/sai-tr/workspace_maxim_ai85_cifar100/checkpoints/shallow004_nas_2b8b_noSAM_2lyrDeep
+/home/buraksoner/sai-tr/workspace_maxim_ai85_cifar100/checkpoints/shallow005_nas_2b8b_noSAM_1lyrDeep
+/home/buraksoner/sai-tr/workspace_maxim_ai85_cifar100/checkpoints/shallow006_nas_AP2b8b_earlyexit
+/home/buraksoner/sai-tr/workspace_maxim_ai85_cifar100/checkpoints/shallow007_nas_AP2b8b_tuned
+/home/buraksoner/sai-tr/workspace_maxim_ai85_cifar100/checkpoints/shallow008_naslarge_2b8b_noSAM
+/home/buraksoner/sai-tr/workspace_maxim_ai85_cifar100/checkpoints/shallow009_nas_aha_AP8b_7bBias
+/home/buraksoner/sai-tr/workspace_maxim_ai85_cifar100/checkpoints/shallow010_naslarge_2b8b_wSAM
+/home/buraksoner/sai-tr/workspace_maxim_ai85_cifar100/checkpoints/shallow011_naslarge_AP8b_wSAM_failed
+/home/buraksoner/sai-tr/workspace_maxim_ai85_cifar100/checkpoints/shallow012_naslarge_AP2b8b_wSAM
+
+Gathering hardware-mode top-1 accuracy and size info from each checkpoint
+
+Leaderboard
+--------------------------------
+Name          :  maxim000_nas_8b
+Top-1 accuracy:  64.22
+Size (KBytes) :  348.772
+
+Name          :  maxim001_simplenet_2b4b8b
+Top-1 accuracy:  55.76
+Size (KBytes) :  166.448
+
+Name          :  shallow001_nas_8b_SAM
+Top-1 accuracy:  64.31
+Size (KBytes) :  348.772
+
+Name          :  shallow002_nas_2b8b_noSAM_4lyrDeep
+Top-1 accuracy:  61.73
+Size (KBytes) :  279.652
+
+Name          :  shallow003_nas_2b8b_noSAM_3lyrDeep
+Top-1 accuracy:  59.95
+Size (KBytes) :  210.532
+
+Name          :  shallow004_nas_2b8b_noSAM_2lyrDeep
+Top-1 accuracy:  57.98
+Size (KBytes) :  141.412
+
+Name          :  shallow005_nas_2b8b_noSAM_1lyrDeep
+Top-1 accuracy:  57.34
+Size (KBytes) :  127.588
+
+Name          :  shallow006_nas_AP2b8b_earlyexit
+Top-1 accuracy:  46.51
+Size (KBytes) :  127.588 , but has "-1/+1 only" 2b layers, so this would be: 104.548 KBytes on MAX78002
+
+Name          :  shallow007_nas_AP2b8b_tuned
+Top-1 accuracy:  54.71
+Size (KBytes) :  127.588 , but has "-1/+1 only" 2b layers, so this would be: 104.548 KBytes on MAX78002
+
+Name          :  shallow008_naslarge_2b8b_noSAM
+Top-1 accuracy:  65.88
+Size (KBytes) :  328.548
+
+Name          :  shallow009_nas_aha_AP8b_7bBias
+Top-1 accuracy:  55.06
+Size (KBytes) :  127.588 , but has "-1/+1 only" 2b layers, so this would be: 90.724 KBytes on MAX78002
+
+Name          :  shallow010_naslarge_2b8b_wSAM
+Top-1 accuracy:  66.38
+Size (KBytes) :  328.548
+
+Name          :  shallow011_naslarge_AP8b_wSAM_failed
+Top-1 accuracy:  36.09
+Size (KBytes) :  328.548 , but has "-1/+1 only" 2b layers, so this would be: 192.356 KBytes on MAX78002
+
+Name          :  shallow012_naslarge_AP2b8b_wSAM
+Top-1 accuracy:  61.34
+Size (KBytes) :  328.548 , but has "-1/+1 only" 2b layers, so this would be: 241.508 KBytes on MAX78002
