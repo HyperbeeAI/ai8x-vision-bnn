@@ -1,6 +1,6 @@
 ###########################################################################
 # Computer vision - Binary neural networks demo software by HyperbeeAI.   #
-# Copyrights © 2023 Hyperbee.AI Inc. All rights reserved. main@shallow.ai #
+# Copyrights © 2023 Hyperbee.AI Inc. All rights reserved. hello@hyperbee.ai #
 ###########################################################################
 import torch, sys, time
 import torch.nn as nn
