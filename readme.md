@@ -1,4 +1,4 @@
-# Experiments on binary neural networks in computer vision by HyperbeeAI
+# Benchmarking binary neural networks in computer vision by HyperbeeAI
 
 Copyrights © 2023 Hyperbee.AI Inc. All rights reserved. hello@hyperbee.ai
 
